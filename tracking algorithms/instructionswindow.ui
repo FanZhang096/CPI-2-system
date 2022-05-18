@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1231</width>
+    <height>754</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>30</y>
+     <width>1121</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:11.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Co-axial Tele-guidance System Instructions&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Calibration&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Calibration module is designed for engineers to calibrate projected annotations &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;1.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;&gt;      &lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Type number in the “Thickness” box to adjust the thickness of annotations. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;2.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;&gt;      &lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Type number in the “Width”, “Height”, “Y axis”, “X axis” to adjust the width, height, &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;location on the X and Y axis respectively. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;&gt;      &lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Click on the “save” button to save parameters after adjustment. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Strategy 1: Real-time Guidance&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This strategy allows trainers to implement real-time on-site and remote annotations. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;1. Click on the “Start” button to begin real-time guidance. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;2. Click on and drag the left mouse button to make screen annotations which will be orthotopicallly projected on the tissue. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;3. Click on the “Clear” button to clear screen annotations. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Strategy 2: Vedio Guidance&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;In this category, users can record a video of the operation of a specialist, and then record verbal guidance and annotations according to the video. As a result, a video with verbal guidance and annotations will be synthesized. Finally, trainees can be trained with an audible video on the monitor and annotations on the model. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;1. Click on the “Delete” button to clear previous images. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;2. Click on the “Start” button to stat to record operation of trainer. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;3. Click on the “Stop” button to stop recording. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;4. Before annotation recording, click on another “Delete” button to clear previous annotations. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;5. Click on the “Start” button to start or continue to record screen annotations and verbal guidance. Video will stop at the last image. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;6. Click on the “Clear” button anytime you want to clear the screen annotations &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;7. Close the window and restart again after image indexing. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;8. Restart the window and click on the “Start” button to start video guidance. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;9    .Click on the “Stop” button anytime you want the annotations to stay. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;  &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Note&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;: Camera parameters can be adjusted with the MindVision Software. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
